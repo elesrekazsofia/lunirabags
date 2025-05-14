@@ -1,0 +1,11 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Az én weboldalam</title>
+</head>
+<body>
+    <h1>Üdvözöllek az oldalamon!</h1>
+    <p>Ez egy nagyon egyszerű weboldal.</p>
+</body>
+</html>
