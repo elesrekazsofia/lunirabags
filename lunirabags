@@ -1,9 +1,153 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>lunirabags</title>
+  <meta charset="UTF-8">
+  <title>Lunira Bags</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #fff;
+      color: #000;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 30px;
+      letter-spacing: 2px;
+    }
+    header h1 {
+   font-size: 32px;
+ font-weight: 400;
+
+      text-transform: uppercase;
+
+      margin: 0;
+
+    }
+
+
+
+    .product-gallery {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      justify-content: center;
+
+      padding: 40px 20px;
+
+      gap: 40px;
+
+    }
+
+
+
+    .product {
+
+      width: 280px;
+
+      text-align: center;
+
+    }
+
+
+
+    .product img {
+
+      width: 100%;
+
+      height: auto;
+
+      border: 1px solid #ddd;
+
+    }
+
+
+
+    .product-name {
+
+      margin-top: 15px;
+
+      font-size: 16px;
+
+      text-transform: uppercase;
+
+      letter-spacing: 1px;
+
+    }
+
+
+
+    .price {
+
+      font-size: 14px;
+
+      color: #777;
+
+    }
+
+
+
+    footer {
+
+      text-align: center;
+
+      padding: 40px;
+
+      font-size: 12px;
+
+      color: #999;
+
+    }
+
+  </style>
+
 </head>
+
 <body>
-    <h1>Welcome to lunirabags!</h1>
+
+
+
+  <header>
+
+    <h1>Lunira Bags</h1>
+
+  </header>
+
+
+
+  <section class="product-gallery">
+
+    <div class="product">
+
+      <img src="images/bag1.jpg" alt="Bag 1">
+
+      <div class="product-name">Beige Shoulder Bag</div>
+      <div class="price">$220</div>
+    </div>
+    <div class="product">
+
+      <img src="images/bag2.jpg" alt="Bag 2">
+
+      <div class="product-name">Black Leather Tote</div>
+
+      <div class="price">$280</div>
+
+    </div>
+
+  </section>
+
+
+
+  <footer>
+
+    &copy; 2025 Lunira Bags. All rights reserved.
+
+  </footer>
+
+
+
 </body>
+
 </html>
